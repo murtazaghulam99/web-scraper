@@ -1,5 +1,5 @@
-import { logo } from "@/assets";
 import React from "react";
+import logo from "../../public/logo.png"
 
 const Header = () => {
   const today = new Date().toString().slice(0, 10);
@@ -10,9 +10,9 @@ const Header = () => {
         <h1>Dealfinder</h1>
         <p>{today}</p>
       </div>
-      <div className="logo-container">
+      {/* <div className="logo-container">
         <img src={logo} alt="logo" />
-      </div>
+      </div> */}
     </header>
   );
 };
